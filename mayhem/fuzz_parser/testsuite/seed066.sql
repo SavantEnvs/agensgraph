@@ -1,0 +1,1 @@
+DEALLOCATE sortkeys_dir;

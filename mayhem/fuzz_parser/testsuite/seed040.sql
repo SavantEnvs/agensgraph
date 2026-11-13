@@ -1,0 +1,1 @@
+match p = allshortestpaths( (o1:o)-[:e*1..]-(o2:o) ) where o1.id = 1 and o2.id = 1 return p;

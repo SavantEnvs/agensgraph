@@ -1,0 +1,1 @@
+ALTER TABLE tc.pctypes ADD COLUMN o_uuid uuid;

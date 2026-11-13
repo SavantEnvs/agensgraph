@@ -1,0 +1,1 @@
+SET allow_null_properties = off;

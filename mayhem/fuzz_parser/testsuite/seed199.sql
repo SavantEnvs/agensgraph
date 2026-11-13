@@ -1,0 +1,1 @@
+GRANT SELECT ON ALL TABLES IN SCHEMA graph_priv_read TO group1;

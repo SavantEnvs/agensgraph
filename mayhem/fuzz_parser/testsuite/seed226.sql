@@ -1,0 +1,1 @@
+RETURN 'Fido' IN { MATCH (p:Person) RETURN VALUE { MATCH (p)-[:HAS_DOG]->(d:Dog {name: 'Fido'}) RETURN d.name } } AS yes;

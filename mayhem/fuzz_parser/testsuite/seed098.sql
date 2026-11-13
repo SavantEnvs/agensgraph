@@ -1,0 +1,1 @@
+MATCH (n:note) DETACH DELETE n;

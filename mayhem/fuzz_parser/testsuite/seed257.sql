@@ -1,0 +1,1 @@
+SELECT toStringList(ARRAY[1.5::float4]);

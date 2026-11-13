@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:tagged)-[r:points]->(x:tagged ONLY) RETURN a.n AS a;

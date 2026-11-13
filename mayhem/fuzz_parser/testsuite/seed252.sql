@@ -1,0 +1,1 @@
+SELECT pg_input_is_valid('bad', 'GRAPHID_DOM');

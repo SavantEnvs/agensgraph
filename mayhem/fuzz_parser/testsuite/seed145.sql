@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Andy'}) RETURN 1 AS x, 2 AS x;

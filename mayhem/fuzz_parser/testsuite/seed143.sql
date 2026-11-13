@@ -1,0 +1,1 @@
+MATCH (person:Person) WHERE COUNT { CREATE (:Foo) } > 0 RETURN person.name AS name;

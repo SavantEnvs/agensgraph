@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (n1:v2 {name: 'seven'}), (n2:v2 {name: 'nine'}) MATCH (n:v2) WHERE n.i IN [n1.i, 8, n2.i] RETURN n;

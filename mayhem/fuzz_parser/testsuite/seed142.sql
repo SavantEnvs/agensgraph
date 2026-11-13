@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (x:v) WHERE x.n = 'a' DETACH DELETE x;

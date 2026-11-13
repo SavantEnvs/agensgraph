@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:p)-[b:rel]->(c) RETURN c;

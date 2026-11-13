@@ -1,0 +1,1 @@
+MATCH (r1:v2 {id: 'initial'}), (r2:v2 {id: 'middle'}) CREATE (r1)-[:e1 {id: 2}]->(r2);

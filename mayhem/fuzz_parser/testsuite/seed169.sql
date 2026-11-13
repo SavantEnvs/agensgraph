@@ -1,0 +1,1 @@
+SELECT anchor_est_rows($$MATCH (h:v {k: 1})<-[:e]-(x) RETURN x$$) AS hub;

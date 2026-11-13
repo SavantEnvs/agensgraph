@@ -1,0 +1,1 @@
+SELECT count(*) AS rel_rows FROM gmp19_off.rel;

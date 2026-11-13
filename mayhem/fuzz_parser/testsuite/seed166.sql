@@ -1,0 +1,1 @@
+RETURN [x IN [0, 1, 2, 3, 4] WHERE x % 2 = 0];

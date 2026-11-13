@@ -1,0 +1,1 @@
+MATCH (A)<-[r:el1 ONLY *1..3]-(B) RETURN A.id, r, B.id;

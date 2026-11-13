@@ -1,0 +1,1 @@
+CREATE (:x {id: 1}) NEXT RETURN 1;

@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH p = (a:person)-[:knows]->() RETURN nodes(p) AS ns;

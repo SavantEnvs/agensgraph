@@ -1,0 +1,1 @@
+MATCH (d:tmpd) RETURN count(*) AS tmpd_remaining;

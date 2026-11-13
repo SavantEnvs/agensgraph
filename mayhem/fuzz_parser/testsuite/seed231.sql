@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Andy'}) CALL () { MATCH (p:Person {name: 'Peter'})-[:HAS_DOG]->(d:Dog) RETURN d.name AS dog } RETURN p.name AS outer_name, dog ORDER BY dog;

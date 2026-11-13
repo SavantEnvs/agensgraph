@@ -1,0 +1,1 @@
+EXPLAIN (COSTS OFF) MATCH (n:co_doc) WHERE n.age = 30 RETURN count(*);

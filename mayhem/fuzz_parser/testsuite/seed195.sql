@@ -1,0 +1,1 @@
+EXPLAIN (COSTS OFF) MATCH (p:Person) OPTIONAL MATCH (p)-[:HAS_DOG]->(d:Dog) OPTIONAL MATCH (d)-[:HAS_TOY]->(t:Toy) RETURN p.name AS name, t.name AS toy;

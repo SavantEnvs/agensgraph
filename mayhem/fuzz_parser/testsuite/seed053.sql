@@ -1,0 +1,1 @@
+SELECT substring('123', 3);

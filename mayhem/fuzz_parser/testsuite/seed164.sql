@@ -1,0 +1,1 @@
+MATCH (person:Person {name: 'Peter'}) RETURN COUNT { MATCH (person)-[:HAS_DOG]->(d:Dog) WITH person, d RETURN d } AS bound, COUNT { MATCH (person)-[:HAS_DOG]->(d:Dog) WITH * RETURN d } AS star, COUNT { MATCH (d:Dog) RETURN d AS person } AS alias;

@@ -1,0 +1,1 @@
+match p = shortestpath( (p1:vp)-[:ep only]->(p2:vp) ) return p1, p2, p;

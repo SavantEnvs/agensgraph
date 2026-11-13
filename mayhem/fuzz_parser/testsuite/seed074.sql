@@ -1,0 +1,1 @@
+MATCH (p:person) WHERE p.name = 'p1' DETACH DELETE p;

@@ -1,0 +1,1 @@
+SET plan_cache_mode = auto;

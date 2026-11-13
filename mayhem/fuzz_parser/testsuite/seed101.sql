@@ -1,0 +1,1 @@
+SELECT p.propname, p.attnum, p.semantics FROM pg_catalog.ag_label_property p JOIN pg_catalog.ag_label l ON l.oid = p.laboid WHERE l.labname = 'altedge';

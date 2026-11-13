@@ -1,0 +1,1 @@
+MATCH (a:test_v1) DELETE (a);

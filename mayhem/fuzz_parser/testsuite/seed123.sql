@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:src)-[b]->(c)-[d]->(e) RETURN e;

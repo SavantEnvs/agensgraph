@@ -1,0 +1,1 @@
+MATCH (a)-[:knows*1..3]->(b) RETURN a, b;

@@ -1,0 +1,1 @@
+MATCH (a:v2), (b:v3) WHERE a.no < 3 DELETE a MERGE (c:v4 {no: b.no});

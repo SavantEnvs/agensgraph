@@ -1,0 +1,1 @@
+MATCH (n:person {id: 1}) LET a = 1, b = a + 1 RETURN a, b;

@@ -1,0 +1,1 @@
+EXPLAIN (COSTS OFF) MATCH (n:altlbl) WHERE n.age > 25 RETURN n.age;

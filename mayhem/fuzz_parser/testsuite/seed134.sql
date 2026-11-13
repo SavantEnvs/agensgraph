@@ -1,0 +1,1 @@
+MATCH (u) WHERE '3.1'::graphid = id(u) RETURN label(u) AS l, id(u) AS id;

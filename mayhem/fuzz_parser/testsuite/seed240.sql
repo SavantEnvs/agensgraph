@@ -1,0 +1,1 @@
+MATCH (x:p) OPTIONAL MATCH (y:q {n: 'absent'}) RETURN count(*) AS rows, count(x = y) AS decided;

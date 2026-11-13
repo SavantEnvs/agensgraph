@@ -1,0 +1,1 @@
+MATCH (a:doc {name:'n2'}), (b:doc {name:'n3'}) CREATE (a)-[:knows]->(b);

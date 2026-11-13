@@ -1,0 +1,1 @@
+GRANT SELECT ON ALL SEQUENCES IN SCHEMA graph_priv_test TO readonly;

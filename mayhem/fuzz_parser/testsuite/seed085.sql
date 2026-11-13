@@ -1,0 +1,1 @@
+match (s1:s), (s2:s) return s1.id as s1id, s2.id as s2id, ids(nodes(shortestpath((s1)-[:e*0..]->(s2)))) order by s1id, s2id;

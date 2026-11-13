@@ -1,0 +1,1 @@
+MATCH (A)-[r:el1 *1..3]-(B) RETURN A.id as aid, r, B.id as bid, id(r[0]) as rid ORDER BY aid, bid, rid;

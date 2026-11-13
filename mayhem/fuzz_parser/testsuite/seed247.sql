@@ -1,0 +1,1 @@
+RETURN ARRAY { MATCH (d:Dog) RETURN NULL ORDER BY d.name } AS nulls;

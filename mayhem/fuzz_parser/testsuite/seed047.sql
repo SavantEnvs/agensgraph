@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Andy'}) CALL (p) { MATCH (p)-[:KNOWS]->(f:Person) CALL (p, f) { MATCH (p)-[:KNOWS]->(f) RETURN 'knows' AS rel } RETURN f.name AS friend, rel } RETURN friend, rel ORDER BY friend;

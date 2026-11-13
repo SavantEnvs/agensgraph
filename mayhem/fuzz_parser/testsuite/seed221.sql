@@ -1,0 +1,1 @@
+MATCH (n:derived) RETURN n.name AS name, n.net AS net ORDER BY name;

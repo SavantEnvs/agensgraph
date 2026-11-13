@@ -1,0 +1,1 @@
+ALTER TABLE tc.vle_par ADD COLUMN par_only bigint;

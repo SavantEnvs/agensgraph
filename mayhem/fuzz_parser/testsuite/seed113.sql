@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:emp)-[:in_dept]->(:dept {n:'d1'}) RETURN a.n AS a;

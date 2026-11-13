@@ -1,0 +1,1 @@
+SELECT message, sql_error_code FROM pg_input_error_info('nodelim', 'graphid');

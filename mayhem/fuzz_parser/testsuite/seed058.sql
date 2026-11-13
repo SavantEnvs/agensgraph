@@ -1,0 +1,1 @@
+MATCH (n:doc) WHERE n.title IS NOT NULL RETURN n.name AS name, n.title AS title ORDER BY title, name;

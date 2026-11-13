@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:n1)-[b]->(c:n2)-[d]->(e) RETURN e;

@@ -1,0 +1,1 @@
+SELECT count(*) AS idx_rows FROM pg_indexes WHERE schemaname = 'tc' AND indexname IN ('altchild_age_idx','altgc_age_idx');

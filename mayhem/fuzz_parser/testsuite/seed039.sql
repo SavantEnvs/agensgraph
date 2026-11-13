@@ -1,0 +1,1 @@
+DROP GRAPH gmp19_on CASCADE;

@@ -1,0 +1,1 @@
+DROP GRAPH anchor_est CASCADE;

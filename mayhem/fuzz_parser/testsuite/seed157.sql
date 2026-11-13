@@ -1,0 +1,1 @@
+CREATE (n:co_doc {age: 77, nm: 'new'}) WITH n, count(*) AS c WHERE n.age = 77 RETURN n.nm AS nm;

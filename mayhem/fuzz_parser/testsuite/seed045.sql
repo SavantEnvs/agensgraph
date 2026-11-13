@@ -1,0 +1,1 @@
+MATCH ("a:b":doc) WHERE "a:b".name = 'n1' RETURN "a:b".age AS a;

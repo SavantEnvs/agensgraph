@@ -1,0 +1,1 @@
+SELECT count(*) AS knows_rows FROM gmp16c_on.knows;

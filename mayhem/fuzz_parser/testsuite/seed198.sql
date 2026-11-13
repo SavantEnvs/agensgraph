@@ -1,0 +1,1 @@
+RETURN '1'::varchar, '1'::char, '1'::bit, '1 day'::interval;

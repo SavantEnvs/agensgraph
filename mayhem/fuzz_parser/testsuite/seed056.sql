@@ -1,0 +1,1 @@
+MATCH (a:person {id: 1})-[x:knows*1..2]->(b:person) RETURN a.id, b.id, x;

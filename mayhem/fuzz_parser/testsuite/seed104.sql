@@ -1,0 +1,1 @@
+MATCH (a:src)-[:links]->(:high_kid) RETURN a.n AS a ORDER BY a;

@@ -1,0 +1,1 @@
+MATCH (:city)<-[r]-(:person) RETURN count(r);

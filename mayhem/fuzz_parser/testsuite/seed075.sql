@@ -1,0 +1,1 @@
+CREATE (:v {z: {z: null}});

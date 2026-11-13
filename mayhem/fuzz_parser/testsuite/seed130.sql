@@ -1,0 +1,1 @@
+CREATE VLABEL gatekid (age int GENERATED);

@@ -1,0 +1,1 @@
+match (r1:r), (r2:r) where r1.id = 1 and r2.id = 11111 return r1.id as r1id, r2.id as r2id, allshortestpaths((r1)<-[:e*]-(r2)) order by r1id, r2id;

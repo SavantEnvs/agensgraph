@@ -1,0 +1,1 @@
+RETURN substring('123', -1, 1);

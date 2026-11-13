@@ -1,0 +1,1 @@
+RETURN 1 AS a UNION RETURN 1 AS a NEXT RETURN count(*) AS c;

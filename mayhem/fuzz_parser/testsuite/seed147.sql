@@ -1,0 +1,1 @@
+MATCH (p:Person) WHERE COUNT { MATCH (p)-[:HAS_DOG]->(d:Dog) CALL (d) { MATCH (d) RETURN d AS dd } RETURN d } > 1 RETURN p.name AS name ORDER BY name;

@@ -1,0 +1,1 @@
+match (c1:c), (c2:c) where c1.id >= 71 and c1.id <= 79 and c2.id >= 71 and c2.id <= 79 and c1.id <> c2.id create (c1)-[:e{id:'c:'+c1.id+'->c:'+c2.id}]->(c2);

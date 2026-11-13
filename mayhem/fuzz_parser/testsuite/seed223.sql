@@ -1,0 +1,1 @@
+CREATE (:pr_has {age: 30});

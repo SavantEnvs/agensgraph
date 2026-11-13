@@ -1,0 +1,1 @@
+match (c1:c{id:79}), (c2:c{id:89}), (c3:c{id:99}) create (c1)-[:e{id:'c:'+c1.id+'->c'+c2.id}]->(c2) create (c2)-[:e{id:'c:'+c2.id+'->c'+c3.id}]->(c3) create (c3)-[:e{id:'c:'+c3.id+'->c'+c1.id}]->(c1);

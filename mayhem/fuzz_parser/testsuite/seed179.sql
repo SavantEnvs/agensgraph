@@ -1,0 +1,1 @@
+CREATE VLABEL we_b;

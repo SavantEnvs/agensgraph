@@ -1,0 +1,1 @@
+CREATE VLABEL bad_virt (x int GENERATED ALWAYS AS ((properties->>'x')::int) VIRTUAL);

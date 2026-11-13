@@ -1,0 +1,1 @@
+MATCH (p:person {id: 1}) CALL yc_table() YIELD a, a RETURN a;

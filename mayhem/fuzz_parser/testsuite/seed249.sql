@@ -1,0 +1,1 @@
+ALTER TABLE tc.gate DROP CONSTRAINT IF EXISTS gate_id_not_null;

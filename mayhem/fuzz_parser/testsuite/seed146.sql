@@ -1,0 +1,1 @@
+ALTER TABLE tc.gate ALTER COLUMN properties TYPE jsonb USING (properties - 'age');

@@ -1,0 +1,1 @@
+UNWIND [1, 2, 3] AS u LET y = u * 10 RETURN u, y ORDER BY u;

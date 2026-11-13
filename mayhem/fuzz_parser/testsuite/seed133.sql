@@ -1,0 +1,1 @@
+MATCH (fido:Dog {name: 'Fido'}), (ozzy:Dog {name: 'Ozzy'}) MATCH (d:Dog) WHERE id(d) IN [id(fido), id(ozzy)] RETURN d.name AS dog ORDER BY dog;

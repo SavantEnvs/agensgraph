@@ -1,0 +1,1 @@
+MATCH (a) ORDER BY a.name ASC RETURN a.name AS name;

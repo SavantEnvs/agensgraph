@@ -1,0 +1,1 @@
+ALTER VLABEL nosuchlabel ADD COLUMN x int GENERATED;

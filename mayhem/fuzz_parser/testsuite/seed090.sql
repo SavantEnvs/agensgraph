@@ -1,0 +1,1 @@
+match (u:vertices {name: 'a'}) set u.p = 2;

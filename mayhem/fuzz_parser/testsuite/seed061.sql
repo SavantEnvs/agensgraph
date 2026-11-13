@@ -1,0 +1,1 @@
+LET greeting = 'hi', doubled = 2 * 3 RETURN greeting, doubled;

@@ -1,0 +1,1 @@
+RETURN keys(head(COLLECT { MATCH (d:Dog) RETURN d ORDER BY d.name })) AS first_keys;

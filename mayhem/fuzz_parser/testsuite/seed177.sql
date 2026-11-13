@@ -1,0 +1,1 @@
+MATCH (n:doc) WHERE n.title = 5 RETURN count(*) AS text_vs_int;

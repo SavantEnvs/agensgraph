@@ -1,0 +1,1 @@
+MATCH (n:v0) RETURN nullIf(n.o.i, 7) AS eq_num, nullIf(n.o.i, 8) AS ne_num, nullIf(n.o.i, n.o.i) AS prop_prop, nullIf(n.o.t, true) AS eq_bool, nullIf(n.o.i, 's') AS num_vs_str, nullIf(n.l, n.l) AS eq_list, nullIf(n.f, n.f) AS eq_map, nullIf(n.o.z, 1) AS null_prop;

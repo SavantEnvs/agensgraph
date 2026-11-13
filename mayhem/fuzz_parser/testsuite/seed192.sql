@@ -1,0 +1,1 @@
+RETURN e() = exp(1.0);

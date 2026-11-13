@@ -1,0 +1,1 @@
+RETURN NONE(x in [20, null] WHERE x > 10);

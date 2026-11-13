@@ -1,0 +1,1 @@
+MATCH (a:person {id: 1})-[x:knows*1..2]->(b:person) WITH x[0] AS x1, x[1] AS x2, length(x) AS l RETURN x1, x2, l;

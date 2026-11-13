@@ -1,0 +1,1 @@
+MATCH (a:src)-[:to_t]->(:nine ONLY) RETURN a.n AS a ORDER BY a;

@@ -1,0 +1,1 @@
+MATCH (A)-[r:el1]-(B) RETURN A.id, r, B.id;

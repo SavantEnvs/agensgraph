@@ -1,0 +1,1 @@
+MATCH (a)-[b:eA]->(c)-[d]->(e) RETURN label(c) AS c, label(e) AS e ORDER BY c, e;

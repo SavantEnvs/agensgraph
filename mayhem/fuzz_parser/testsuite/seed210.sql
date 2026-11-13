@@ -1,0 +1,1 @@
+CREATE FUNCTION yc_table() RETURNS TABLE(a int, b text) LANGUAGE sql AS $$ SELECT * FROM (VALUES (1, 'one'), (2, 'two'), (3, 'three')) v(a, b) $$;

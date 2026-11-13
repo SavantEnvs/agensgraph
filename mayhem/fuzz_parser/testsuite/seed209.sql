@@ -1,0 +1,1 @@
+MATCH p=((u)-[*0..3]->(v)) RETURN p LIMIT 5;

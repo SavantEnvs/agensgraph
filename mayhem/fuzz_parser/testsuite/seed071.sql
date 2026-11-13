@@ -1,0 +1,1 @@
+MATCH (p:person) WITH p AS v ORDER BY properties(v).id DESC RETURN v.id AS id;

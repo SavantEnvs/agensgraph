@@ -1,0 +1,1 @@
+ALTER VLABEL altreadd ADD COLUMN age int GENERATED;

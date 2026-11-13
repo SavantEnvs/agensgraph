@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (s:nd)-[r1:kin]-(m:nd)-[r2:kid]-(x:nd) RETURN s.id AS s, r1.p AS r1, m.id AS m, r2.p AS r2, x.id AS x;

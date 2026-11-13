@@ -1,0 +1,1 @@
+MATCH (n:setmap) RETURN properties(n), n.age;

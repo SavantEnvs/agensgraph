@@ -1,0 +1,1 @@
+MATCH (a:person)-[:knows]->({name:'bob'}) RETURN a.name AS a ORDER BY a;

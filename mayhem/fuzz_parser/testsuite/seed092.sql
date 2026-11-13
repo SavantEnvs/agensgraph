@@ -1,0 +1,1 @@
+MATCH (a:v2), (b:v3), (c:v4) DELETE a SET c.no = b.no;

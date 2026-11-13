@@ -1,0 +1,1 @@
+MATCH (a {name:'AG-163'}) DELETE a RETURN *;

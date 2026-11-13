@@ -1,0 +1,1 @@
+SELECT count(*) AS in_rows FROM gmp17b_off.in_e;

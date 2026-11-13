@@ -1,0 +1,1 @@
+CREATE VLABEL jlike (s text GENERATED);

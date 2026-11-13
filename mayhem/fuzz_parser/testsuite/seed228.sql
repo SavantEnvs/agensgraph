@@ -1,0 +1,1 @@
+match (c1:c), (c2:c) where c1.id >= 31 and c1.id <= 39 and c2.id >= 41 and c2.id <= 49 return c1.id as c1id, c2.id as c2id, size(allshortestpaths((c1)-[:e*]-(c2))) order by c1id, c2id;

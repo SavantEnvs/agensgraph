@@ -1,0 +1,1 @@
+CREATE (:P {name: 'alice'})-[:R {since: 2020}]->(:P {name: 'bob'});

@@ -1,0 +1,1 @@
+SELECT l.labname, p.propname, p.attnum FROM ag_label_property p JOIN ag_label l ON l.oid = p.laboid WHERE l.labname IN ('syncpar', 'synckid') ORDER BY l.labname, p.attnum;

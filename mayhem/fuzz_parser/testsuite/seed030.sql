@@ -1,0 +1,1 @@
+MATCH (n) FILTER n.age > 0 RETURN n.age AS age ORDER BY age;

@@ -1,0 +1,1 @@
+MATCH p = (z)<-[:e3a*1..3]-(a:v3) WHERE a.k = 1 RETURN length(p) AS len, z.k AS reached ORDER BY len, reached;

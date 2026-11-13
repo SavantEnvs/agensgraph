@@ -1,0 +1,1 @@
+RETURN [x IN [1, 2, 3, 4] WHERE x IN { SELECT to_jsonb(g) FROM generate_series(2, 3) g }] AS kept;

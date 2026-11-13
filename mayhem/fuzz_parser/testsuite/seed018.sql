@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Andy'}) CALL (nosuchvar) { MATCH (d:Dog) RETURN d.name AS dog } RETURN dog;

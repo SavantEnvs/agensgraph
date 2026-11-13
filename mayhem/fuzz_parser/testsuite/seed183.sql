@@ -1,0 +1,1 @@
+RETURN 'abc' STARTS WITH 1;

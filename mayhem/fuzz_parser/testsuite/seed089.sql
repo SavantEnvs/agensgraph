@@ -1,0 +1,1 @@
+MATCH x=shortestpath((p:person)<-[:knows*]-(f:person)) WHERE p.id = 3 RETURN ids(nodes(x)) AS ids;

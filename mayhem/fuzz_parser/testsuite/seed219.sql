@@ -1,0 +1,1 @@
+RETURN COLLECT { MATCH (d:Dog) RETURN d.name ORDER BY d.name } AS names;

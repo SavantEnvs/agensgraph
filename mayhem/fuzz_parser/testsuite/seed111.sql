@@ -1,0 +1,1 @@
+SELECT optional FROM (SELECT 1 AS optional) s;

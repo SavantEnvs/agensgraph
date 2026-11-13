@@ -1,0 +1,1 @@
+SELECT child.labname AS child, parent.labname AS parent FROM pg_catalog.ag_label AS parent, pg_catalog.ag_label AS child, pg_catalog.pg_inherits AS inh WHERE child.relid = inh.inhrelid AND parent.relid = inh.inhparent ORDER BY 1, 2;

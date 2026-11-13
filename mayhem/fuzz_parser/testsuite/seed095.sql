@@ -1,0 +1,1 @@
+FOR x in [] WITH OFFSET AS i RETURN x, i;

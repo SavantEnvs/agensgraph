@@ -1,0 +1,1 @@
+CREATE (:c_top {age: 30});

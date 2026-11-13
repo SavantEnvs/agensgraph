@@ -1,0 +1,1 @@
+DROP GRAPH g_insert CASCADE;

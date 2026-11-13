@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Andy'}), (other:Person {name: 'Peter'}) CALL (p) { MATCH (p)-[:HAS_DOG]->(d:Dog) WHERE d.name <> other.name RETURN d.name AS dog } RETURN dog;

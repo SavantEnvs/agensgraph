@@ -1,0 +1,1 @@
+MATCH (n:v1) RETURN count(nullIf(n.i, 0)) AS non_zero, count(*) AS total;

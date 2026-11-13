@@ -1,0 +1,1 @@
+MATCH (p:Person) OPTIONAL MATCH (p)-[:HAS_CAT]->(c:Cat) OPTIONAL CALL (p) { MATCH (p)-[:HAS_DOG]->(d:Dog) RETURN d.name AS dog } RETURN p.name AS name, c.name AS cat, dog ORDER BY name, dog;

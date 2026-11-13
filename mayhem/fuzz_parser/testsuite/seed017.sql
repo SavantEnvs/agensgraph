@@ -1,0 +1,1 @@
+MATCH (n:gone) RETURN count(n) AS undeleted;

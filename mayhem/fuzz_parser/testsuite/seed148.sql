@@ -1,0 +1,1 @@
+CREATE TABLE substring_ag246 (tval text);

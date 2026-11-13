@@ -1,0 +1,1 @@
+match (u:vertices {name: 'c'}) delete u with 1 as x create (:vertices {name: 'e'}), (:vertices {name: 'f'}) return x;

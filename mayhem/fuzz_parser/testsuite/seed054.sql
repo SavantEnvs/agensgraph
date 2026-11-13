@@ -1,0 +1,1 @@
+ALTER TABLE tc.gate_e2 SET SCHEMA tc_elsewhere2;

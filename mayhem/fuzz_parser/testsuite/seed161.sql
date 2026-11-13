@@ -1,0 +1,1 @@
+MATCH (n:doc) RETURN n.age AS v UNION MATCH (n:doc) RETURN n.name AS v NEXT RETURN v ORDER BY v;

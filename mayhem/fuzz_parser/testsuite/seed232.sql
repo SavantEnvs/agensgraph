@@ -1,0 +1,1 @@
+RETURN ARRAY { MATCH (d:Dog) RETURN d.name ORDER BY d.name } AS all_dogs;

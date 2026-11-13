@@ -1,0 +1,1 @@
+MATCH (u:string) RETURN substring(u.sval, 0, 1);

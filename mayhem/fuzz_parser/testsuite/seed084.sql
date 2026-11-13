@@ -1,0 +1,1 @@
+CREATE VLABEL w4 INHERITS (eight);

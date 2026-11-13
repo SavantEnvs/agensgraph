@@ -1,0 +1,1 @@
+EXPLAIN (COSTS OFF) MATCH (n:mixed) WHERE n.mixedkey > 6 RETURN n.name;

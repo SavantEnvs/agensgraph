@@ -1,0 +1,1 @@
+MATCH (h:v {k: 7})<-[:e]-(x) RETURN count(*) AS other;

@@ -1,0 +1,1 @@
+INSERT (:person {name: 'Ada'});

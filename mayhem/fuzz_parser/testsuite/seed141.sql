@@ -1,0 +1,1 @@
+INSERT INTO ei.q (id, properties) SELECT id, '{"n": "clone"}'::jsonb FROM ei.p ORDER BY id LIMIT 1;

@@ -1,0 +1,1 @@
+WITH 1 AS x RETURN x + 2, [1,2,3][0..1];

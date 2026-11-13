@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (s:nd)-[r1:twin]-(m:nd)-[r2:other]-(x:nd)-[r3:kin ONLY]-(y:nd) RETURN count(*);

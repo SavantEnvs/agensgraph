@@ -1,0 +1,1 @@
+MATCH (a:time)-[x:goes*1..2 {sec: 1}]->(b:time) RETURN count(*);

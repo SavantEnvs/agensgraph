@@ -1,0 +1,1 @@
+return str_size('agensgraph'), toBoolean('agensgraph');

@@ -1,0 +1,1 @@
+strict $.a ? (@.b == "x" && @.c like_regex "^a")

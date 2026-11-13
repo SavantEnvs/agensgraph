@@ -1,0 +1,1 @@
+CREATE (a: v1 {id: 1}) CREATE (b: v1 {id: 2}) CREATE (a)-[r:e1 {text: 'text'}]->(b) RETURN r;

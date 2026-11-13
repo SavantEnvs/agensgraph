@@ -1,0 +1,1 @@
+CREATE (:chld {name:'chld1', age:20, score:5.5});

@@ -1,0 +1,1 @@
+MATCH (a {id: 1}), (b {id: 2}) MERGE (a)-[r:e1]-(b) RETURN properties(a), properties(b);

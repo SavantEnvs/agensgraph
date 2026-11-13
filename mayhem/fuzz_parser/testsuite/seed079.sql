@@ -1,0 +1,1 @@
+MATCH ()-[r:pe {k: 3}]->() DELETE r;

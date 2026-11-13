@@ -1,0 +1,1 @@
+MATCH (n:sz) RETURN n.name AS name ORDER BY size(n.name), name;

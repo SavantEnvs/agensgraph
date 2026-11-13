@@ -1,0 +1,1 @@
+EXPLAIN (costs off) MATCH (a:person)-[:knows]->(b) WHERE id(b) = '4.1'::graphid RETURN b;

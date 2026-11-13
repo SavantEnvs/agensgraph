@@ -1,0 +1,1 @@
+CREATE (:altdep {name:'d1', v:3});

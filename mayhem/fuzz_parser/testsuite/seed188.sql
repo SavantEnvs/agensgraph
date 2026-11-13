@@ -1,0 +1,1 @@
+MATCH (a:dog)-[b]->(c) RETURN label(b) AS lb, label(c) AS lc ORDER BY lb, lc;

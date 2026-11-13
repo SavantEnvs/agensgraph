@@ -1,0 +1,1 @@
+MATCH (r1:v2), (r1), (r1), (r1:v2) RETURN r1;

@@ -1,0 +1,1 @@
+CREATE (=null)-[:lib =null]->();

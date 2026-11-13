@@ -1,0 +1,1 @@
+MATCH (a)-[r:e1]->(b) RETURN properties(a), properties(r), properties(b);

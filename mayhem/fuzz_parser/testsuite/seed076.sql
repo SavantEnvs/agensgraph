@@ -1,0 +1,1 @@
+MATCH (p:person) WHERE p.id > 100 RETURN p.name AS a NEXT RETURN a AS x UNION RETURN 'z' AS x;

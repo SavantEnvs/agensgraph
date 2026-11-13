@@ -1,0 +1,1 @@
+MATCH (a:person)-[b:lives_in]->()-[d:located_in]->(e) RETURN a.name AS a, label(e) AS e ORDER BY a, e;

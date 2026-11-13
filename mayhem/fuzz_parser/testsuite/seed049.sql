@@ -1,0 +1,1 @@
+COPY gmp8.rel (id, start, "end", properties) FROM stdin;

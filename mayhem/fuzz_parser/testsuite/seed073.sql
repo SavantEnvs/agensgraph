@@ -1,0 +1,1 @@
+MATCH (x:tn)-[r:rd_top*1..3 {code: 10}]->(y:tn) RETURN x.nm AS f, y.nm AS t, [e IN r | label(e)] AS via ORDER BY f, t, via;

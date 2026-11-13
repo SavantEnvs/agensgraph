@@ -1,0 +1,1 @@
+MATCH(v1:v_title{name:'TitleA'}), (v2:v_type{name:'TypeA'}) CREATE (v1)-[:e_title_type{name:'(2)', val:2}]->(v2);

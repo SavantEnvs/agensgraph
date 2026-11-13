@@ -1,0 +1,1 @@
+CREATE (:person {name: 'x', age: 3})-[:knows]->(:person);

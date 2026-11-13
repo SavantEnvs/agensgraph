@@ -1,0 +1,1 @@
+MATCH p=shortestpath((a)-[*]-(b)) RETURN p;

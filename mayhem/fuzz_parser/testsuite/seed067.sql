@@ -1,0 +1,1 @@
+MATCH (p:person) RETURN p.id AS x ORDER BY nosuch * -1;

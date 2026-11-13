@@ -1,0 +1,1 @@
+MATCH (u:numbers) RETURN log(u.numeric), ln(u.numeric), log10(u.numeric);

@@ -1,0 +1,1 @@
+explain ( analyze false, verbose true, costs false, buffers false, timing false ) match p = shortestpath( (o1:o)-[:e]->(o2:o) ) where o1.id = 1 and o2.id = 1 return p;

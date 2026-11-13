@@ -1,0 +1,1 @@
+RETURN toFloat('abc'), toFloat(null);

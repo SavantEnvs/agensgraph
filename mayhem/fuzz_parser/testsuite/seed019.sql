@@ -1,0 +1,1 @@
+MATCH ()-[a:doc]->() DETACH DELETE end_vertex(a);

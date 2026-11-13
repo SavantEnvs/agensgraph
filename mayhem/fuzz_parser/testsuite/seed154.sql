@@ -1,0 +1,1 @@
+MATCH (a:repo) RETURN a.name AS name, exists(a.year) AS has_year, exists(a.stars) AS has_stars ORDER BY name;

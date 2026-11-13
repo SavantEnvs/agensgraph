@@ -1,0 +1,1 @@
+MATCH (x:p)-[:k]->() RETURN x.n, count(*) ORDER BY x.n;

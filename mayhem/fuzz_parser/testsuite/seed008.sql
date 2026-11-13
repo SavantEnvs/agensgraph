@@ -1,0 +1,1 @@
+SELECT * FROM (MATCH (n) RETURN n) AS q;

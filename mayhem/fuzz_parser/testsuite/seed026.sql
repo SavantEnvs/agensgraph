@@ -1,0 +1,1 @@
+MATCH (a:v1 {name: 'A'}) SET a.age=40 RETURN a;

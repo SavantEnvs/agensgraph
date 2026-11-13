@@ -1,0 +1,1 @@
+MATCH ()-[r:pcmerge]->() RETURN r.w AS w, r.made AS made, r.seen AS seen;

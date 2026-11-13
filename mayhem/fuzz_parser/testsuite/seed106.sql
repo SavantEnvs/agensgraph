@@ -1,0 +1,1 @@
+MATCH (n:setmap) SET n = jsonb_build_array(1, 2);

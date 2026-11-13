@@ -1,0 +1,1 @@
+ALTER TABLE tc.pcmerge ADD COLUMN e_txt text;

@@ -1,0 +1,1 @@
+MATCH (a:human {n:'a'})-[r:knows]->(b) SET r.tag = 1;

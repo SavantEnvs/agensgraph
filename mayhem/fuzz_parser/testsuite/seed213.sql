@@ -1,0 +1,1 @@
+MATCH (person:Person {name: 'Peter'}) RETURN COUNT { MATCH (d:Dog) WITH d.name AS person RETURN person } AS c;

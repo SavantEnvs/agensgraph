@@ -1,0 +1,1 @@
+MATCH (a:v2) MERGE (b:v2 {no:a.no -1}) DELETE a;

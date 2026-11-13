@@ -1,0 +1,1 @@
+MATCH (v1:v {id: 0}), (v2:v {id: 3}), p=dijkstra((v1:v)-[e:e*1..]->(v2), e.weight) RETURN nodes(p);

@@ -1,0 +1,1 @@
+RETURN cardinality('abc') AS r;

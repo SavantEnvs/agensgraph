@@ -1,0 +1,1 @@
+DROP GRAPH cypher_yield CASCADE;

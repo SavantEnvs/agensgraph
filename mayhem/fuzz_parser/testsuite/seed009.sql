@@ -1,0 +1,1 @@
+MATCH p = ()-[:rel]->(), gp = ()-[:rel]->(), (a) DELETE p, gp, a;

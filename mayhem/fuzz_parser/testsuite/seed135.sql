@@ -1,0 +1,1 @@
+MATCH (p:Person {name: 'Peter'}) RETURN ARRAY { MATCH (p)-[:HAS_DOG]->(d:Dog) RETURN d.name ORDER BY d.name } = ['Fido', 'Ozzy'] AS eq;

@@ -1,0 +1,1 @@
+CREATE (:person {name:'alice'}), (:person {name:'bob'}), (:city {name:'paris'}), (:company {name:'acme'}), (:country {name:'france'});
